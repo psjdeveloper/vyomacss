@@ -1,0 +1,19 @@
+{
+  "name": "vyomacss",
+  "version": "0.1.0",
+  "description": "A lightweight SCSS-based CSS framework by Vyoma",
+  "main": "dist/vyoma.css",
+    "style": "dist/vyoma.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "build": "sass scss/main.scss dist/vyoma.css",
+    "watch": "sass scss/main.scss dist/vyoma.css --watch"
+  },
+  "keywords": [ "css",
+    "scss",
+    "framework",
+    "vyoma",
+    "learnbyte"],
+  "author": "Prasoon jadon ",
+  "license": "ISC"
+}

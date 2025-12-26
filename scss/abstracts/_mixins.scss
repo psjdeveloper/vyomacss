@@ -1,0 +1,15 @@
+@use "./variable" as v;
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin button-base {
+  padding: 0.6rem 1.2rem;
+  border-radius: v.$radius-md;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}

@@ -1,0 +1,8 @@
+@use "../abstracts/variable" as v;
+
+.card {
+  background: v.$light;
+  padding: map-get(v.$spaces, 3);
+  border-radius: v.$radius-lg;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}

@@ -1,0 +1,20 @@
+@use "../abstracts/variable" as v;
+@use "../abstracts/mixins" as m;
+
+.btn {
+  @include m.button-base;
+
+  &-primary {
+    background: v.$primary;
+    color: white;
+
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+
+  &-danger {
+    background: v.$danger;
+    color: white;
+  }
+}

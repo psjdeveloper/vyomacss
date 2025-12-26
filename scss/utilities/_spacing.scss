@@ -1,0 +1,6 @@
+@use "../abstracts/variable" as v;
+
+@each $key, $value in v.$spaces {
+  .p-#{$key} { padding: $value; }
+  .m-#{$key} { margin: $value; }
+}

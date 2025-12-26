@@ -1,0 +1,13 @@
+@use "../abstracts/variable" as v;
+
+.text-center {
+  text-align: center;
+}
+
+.text-primary {
+  color: v.$primary;
+}
+
+.text-danger {
+  color: v.$danger;
+}
