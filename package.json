@@ -1,6 +1,6 @@
 {
   "name": "vyomacss",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A lightweight SCSS-based CSS framework by Vyoma",
   "main": "dist/vyoma.css",
     "style": "dist/vyoma.css",
